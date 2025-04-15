@@ -1,0 +1,20 @@
+#----------First Step----------#
+
+Double click Pipeline.exe
+
+#----------Second Step----------#
+
+OpenRaman Spectrum Analyzer Suite opens, is automatically connected to camera + spectrometer.
+
+
+#----------Third Step----------#
+
+Manual data collection. Export as CSV file to a specified file path.
+
+#----------Fourth Step----------#
+
+Once the spectrum analyzer closes, send to savitsky_golay.py for filtering
+
+#----------Fifth Step----------#
+
+Display cleaned filtered spectra using matplotlib 
